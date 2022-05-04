@@ -1,0 +1,28 @@
+como centralizar elementos na página sem fixar um tamanho para o main ?
+
+como centralizar o conteúdo no nav e criar responsividade da largura ?
+
+qual a melhor forma de "fixar" o aside na lateral direita ?
+
+como manter o conteúdo do last order examples alinhado com o do nav ?
+
+
+.order-options-container {
+    /* padding: 0 auto; */
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    width: 670px;
+    height: 785px;
+    background-color: #404EED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    right: 0; */
+}
